@@ -1,0 +1,44 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.super-over-league-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  height: 100vh;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+
+.teams-container {
+  display: flex;
+}
+
+.logo-image {
+  width: 150px;
+  height: 150px;
+}
+@media screen and (min-width: 768px) {
+  .logo-image {
+    width: 300px;
+    height: 300px;
+  }
+}
